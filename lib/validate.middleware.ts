@@ -11,7 +11,6 @@ export function validateMiddleware(validateConfig) {
       schema: validateItem.schema,
     });
   }
-  console.log(233)
   return (req, res, next) => {
     const validateItem = _.find(validateList, (item) => {
       return item.path.test(req.baseUrl);
@@ -20,8 +19,6 @@ export function validateMiddleware(validateConfig) {
       const schema = validate.checkSchema(validateItem.schema);
       Promise.all(schema.map(validation => validation.run(req))).then(v => {
         const errors = validate.validationResult(req);
-        console.log(123)
-        console.log(errors)
         if (errors.isEmpty()) {
           req.nestjsValidate = [];
         }

@@ -1,8 +1,8 @@
 {
   "name": "nestjs-validate",
-  "version": "0.5.0",
+  "version": "0.5.4",
   "description": "the validate for nestjs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "directories": {
     "lib": "lib"
   },
