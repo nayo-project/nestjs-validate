@@ -1,6 +1,6 @@
 {
   "name": "nestjs-validate",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "description": "the validate for nestjs",
   "main": "dist/index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Terencesun/nestjs-validate.git"
+    "url": "git+https://github.com/nayo-project/nestjs-validate.git"
   },
   "keywords": [
     "nestjs",
@@ -22,9 +22,9 @@
   "author": "Terence.Sun",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Terencesun/nestjs-validate/issues"
+    "url": "https://github.com/nayo-project/nestjs-validate/issues"
   },
-  "homepage": "https://github.com/Terencesun/nestjs-validate#readme",
+  "homepage": "https://github.com/nayo-project/nestjs-validate#readme",
   "dependencies": {
     "@nestjs/common": "^6.0.0",
     "@nestjs/core": "^6.0.0",
