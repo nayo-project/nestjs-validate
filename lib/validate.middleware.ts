@@ -13,7 +13,7 @@ export function validateMiddleware(validateConfig) {
   }
   return (req, res, next) => {
     const validateItem = _.find(validateList, (item) => {
-      return item.path.test(req.baseUrl);
+      return item.path.test(req.path);
     });
     if (validateItem) {
       const schema = validate.checkSchema(validateItem.schema);

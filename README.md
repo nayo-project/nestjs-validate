@@ -4,6 +4,9 @@ The validate for nestjs
 the document will come soon, you can have a look at the express-validator for learning the validate schema
 https://express-validator.github.io/docs/index.html
 
+### version limit
+nestjs >= 8.0.0
+
 ```
 Example:
 import * as validate from 'nestjs-validate';
